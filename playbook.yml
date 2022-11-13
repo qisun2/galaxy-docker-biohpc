@@ -29,5 +29,5 @@
   tasks:
   - name: Run the galaxy role
     include_role:
-      name: galaxy
+      name: galaxyproject.galaxy
     tags: galaxy_build_client
