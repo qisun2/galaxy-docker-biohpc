@@ -1,2 +1,8 @@
-- src: https://github.com/galaxyproject/ansible-galaxy.git
-  name: galaxy
+- src: galaxyproject.galaxy
+  version: 0.10.5
+- src: galaxyproject.postgresql
+  version: 1.1.1
+- src: galaxyproject.postgresql_objects
+  version: 1.2.0
+- src: galaxyproject.proftpd
+  version: 0.3.2
